@@ -1,0 +1,11 @@
+<h2>Task Info</h2>
+Name:  {{newTask.name}}
+<br>
+Description: {{newTask.description}}
+<br>
+Time to Complete: {{newTask.time}}
+<br>
+Items Needed: {{newTask.items}}
+<br/>
+<button (click)="deleteTask(newTask.id)">x</button>
+<a [routerLink]="['/edit', newTask.id]"><button>Edit</button></a>

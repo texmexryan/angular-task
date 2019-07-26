@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "name": "Fight Jimmy",
+      "description": "Go beat up that jerk, Jimmy",
+      "time": "5",
+      "items": "your fists",
+      "Items": "your fists and kicks",
+      "Time": "5",
+      "Description": "beat up that jerk, Jimmy"
+    },
+    {
+      "name": "Clean room",
+      "description": "pick up things",
+      "time": "45",
+      "items": "your hands, containers",
+      "id": 3
+    },
+    {
+      "name": "Wash car",
+      "description": "give the car a bath",
+      "time": "50",
+      "items": "soap, sponge, hose",
+      "id": 4
+    },
+    {
+      "name": "Go shopping",
+      "description": "go to the grocery store for food",
+      "time": "60",
+      "items": "money, and transportation",
+      "id": 5
+    }
+  ]
+}
