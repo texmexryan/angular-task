@@ -13,12 +13,14 @@ export class TaskDetailsComponent implements OnInit {
   newTask: Task = new Task();
   tasks: Task[];
 
+  
   constructor(private taskDataService: TaskDataService, private router: Router, private route: ActivatedRoute) { }
 
-  deleteTask(id:number) {
-    this.taskDataService.deleteTask(id).subscribe(t=>
-      this.router.navigate(["list"]));
-  }
+  // deleteTask(id:number) {
+  //   this.taskDataService.deleteTask(id).subscribe(t=>
+  //     this.router.navigate(["list"]));
+  // }
+  
 
   ngOnInit() {
     this.route.params.subscribe(params => {

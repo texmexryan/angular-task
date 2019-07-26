@@ -21,7 +21,8 @@ export class TaskEditComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(param => {
-      this.taskDataService.getTask(+param["id"])
+      this.taskDataService
+      .getTask(+param["id"])
       .subscribe(t => (this.editTask = t));
     })
   }
